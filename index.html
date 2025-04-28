@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chines Variable Font Testing</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+
+    <div class="container">
+    
+        <div class="text-container">
+        <p class="font-title">Noto Sans SC+TC</p>
+          <h1 class="font-text noto-sans-sc">北冥有鱼，其名为鲲。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。</h1>
+          <h1 class="font-text noto-sans-tc">北冥有魚，其名鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。是鳥也，海運則將徙於南冥。南冥者，天池也。</h1>
+          <p class="font-title">Source Han Sans SC+TC</p>
+          <h1 class="font-text source-han-sans">冥有鱼，其名为鲲。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。<br>北冥有魚，其名鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。是鳥也，海運則將徙於南冥。南冥者，天池也。</h1>
+          <p class="font-title">Alimama Fang Yuan*</p>
+          <h1 class="font-text alimama-fang-yuan" id="alimamaSection">冥有鱼，其名为鲲。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。</h1>
+          <p class="font-title">Noto Serif SC+TC</p>
+          <h1 class="font-text noto-serif-sc">北冥有鱼，其名为鲲。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。</h1>
+          <h1 class="font-text noto-serif-tc">北冥有魚，其名鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。是鳥也，海運則將徙於南冥。南冥者，天池也。</h1>
+          <p class="font-title">Source Han Serif SC+TC</p>
+          <h1 class="font-text source-han-serif">冥有鱼，其名为鲲。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。<br>北冥有魚，其名鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。是鳥也，海運則將徙於南冥。南冥者，天池也。</h1>
+        </div>
+      </div>
+
+      <div class="slider-container">
+        <div for="weightSlider">Weight</label>
+        <input type="range" id="weightSlider" min="100" max="900" value="400" step="1">
+        <div for="bevelSlider">Bevel*</label>
+        <input type="range" id="bevelSlider" min="0" max="100" value="0" step="1">
+        <div for="sizeSlider">Font Size</label>
+        <input type="range" id="sizeSlider" min="10" max="200" value="48" step="1">
+      </div>
+
+      <script src="main.js"></script>
+</body>
+</html>

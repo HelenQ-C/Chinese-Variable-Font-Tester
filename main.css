@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'Alimama Fang Yuan';
+  src: url('Fonts/AlimamaFangYuanTiVF-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Huninn';
+  src: url('Fonts/jf-openhuninn-2.1.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Source Han Sans';
+  src: url('Fonts/SourceHanSans-VF.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Source Han Serif';
+  src: url('Fonts/SourceHanSerif-VF.ttf') format('truetype');
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  .slider-container {
+    position: fixed;
+    right: 20px;
+    padding: 1.5rem;
+    padding-right: 3rem;
+    z-index: 999;
+  }
+  
+  .text-container {
+    padding: 2rem;
+    padding-top: 1rem;
+    width: 65%;
+  }
+  
+  .font-text {
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-variation-settings: "wght" 400;
+    margin-bottom: 2rem;
+  }
+  
+  .noto-sans-sc {
+    font-family: 'Noto Sans SC', sans-serif;
+  }
+  .noto-sans-tc {
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-top: -2rem;
+  }
+  .noto-serif-sc {
+    font-family: 'Noto Serif SC', serif;
+  }
+  .noto-serif-tc {
+    font-family: 'Noto Serif TC', serif;
+    margin-top: -2rem;
+  }
+  .alimama-fang-yuan {
+    font-family: 'Alimama Fang Yuan', sans-serif;
+  }
+  .source-han-sans {
+    font-family: 'Source Han Sans', sans-serif;
+  }
+  .source-han-serif {
+    font-family: 'Source Han Serif', serif;
+  }
+
+  #weightSlider {
+    -webkit-appearance: none;
+    width: 250px; 
+    height: 6px; 
+    margin: 1rem 0;
+    background: linear-gradient(to right, black 0%, white 0%);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #weightSlider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    background: transparent; 
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  
+  #weightSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: black; 
+    border: none;
+    border-radius: 50%;
+    margin-top: -7px;
+    cursor: pointer;
+  }
+  
+  .font-title {
+    margin-bottom: -0.5rem;
+  }
+
+  #bevelSlider {
+    -webkit-appearance: none;
+    width: 250px; 
+    height: 6px; 
+    margin: 1rem 0;
+    background: linear-gradient(to right, black 0%, white 0%);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #bevelSlider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    background: transparent; 
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  
+  #bevelSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: black; 
+    border: none;
+    border-radius: 50%;
+    margin-top: -7px;
+    cursor: pointer;
+  }
+  
+  #sizeSlider {
+    -webkit-appearance: none;
+    width: 250px; 
+    height: 6px; 
+    margin: 1rem 0;
+    background: linear-gradient(to right, black 0%, white 0%);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #sizeSlider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    background: transparent; 
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  
+  #sizeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: black; 
+    border: none;
+    border-radius: 50%;
+    margin-top: -7px;
+    cursor: pointer;
+  }
+  
